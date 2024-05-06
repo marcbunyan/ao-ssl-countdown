@@ -2,4 +2,4 @@ Host,Port
 compuserve.com,443
 microsoft.com,443
 vmware.com,443
-domain.controller:636
+domain.controller,636
