@@ -30,7 +30,7 @@ Write-Host "Auth Token: $token"
 # Read CSV (URL,Port) for 'customscripts'
 $SourceCSV = "C:\temp\ssl.csv"
 
-# fix me so that I can just ask for a VM (with agent running)
+# Ask for a VM (with agent running)
 $VMwithAgent = Read-Host "Name of the VM running Telegraf Agent"
 
 # Get vROPS object ID by VM name
