@@ -16,7 +16,7 @@ Basic steps for use :
 - name of the VM with telegraf running.
 
 	
-6. Adjust Symptom warning threshold (or adjust code to prompt etc.)
+6. Adjust Symptom warning threshold (or adjust code to prompt etc.) - currently 'WARNING' at 30 days.
 7. Check the created Symptoms in AOps, adjust any thresholds as required (<50 days etc.).
 8. If needed, Create an Alarm that is triggered with any of the Symptoms that have been created using the script above.
 	
